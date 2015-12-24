@@ -13,6 +13,7 @@
 		947E99881C2CA73000BD6C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E99861C2CA73000BD6C8B /* Main.storyboard */; };
 		947E998A1C2CA73000BD6C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947E99891C2CA73000BD6C8B /* Assets.xcassets */; };
 		947E998D1C2CA73000BD6C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E998B1C2CA73000BD6C8B /* LaunchScreen.storyboard */; };
+		947E99961C2CA81500BD6C8B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947E99951C2CA81500BD6C8B /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		947E99891C2CA73000BD6C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947E998C1C2CA73000BD6C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947E998E1C2CA73000BD6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947E99941C2CA81500BD6C8B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		947E99951C2CA81500BD6C8B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				947E998B1C2CA73000BD6C8B /* LaunchScreen.storyboard */,
 				947E998E1C2CA73000BD6C8B /* Info.plist */,
 				947E997D1C2CA73000BD6C8B /* Supporting Files */,
+				947E99941C2CA81500BD6C8B /* TableViewController.h */,
+				947E99951C2CA81500BD6C8B /* TableViewController.m */,
 			);
 			path = TableExample;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				947E99851C2CA73000BD6C8B /* ViewController.m in Sources */,
 				947E99821C2CA73000BD6C8B /* AppDelegate.m in Sources */,
 				947E997F1C2CA73000BD6C8B /* main.m in Sources */,
+				947E99961C2CA81500BD6C8B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
